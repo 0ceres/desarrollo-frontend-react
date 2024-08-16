@@ -2,11 +2,13 @@ import Logo from './_components/Logo';
 import Description from './_components/Description';
 import OpenLink from '../components/OpenLink';
 import LessonInfo from './_components/LessonInfo';
+import Counter from './_components/Counter';
 
 const Default = () => { 
     return (
         <>
             <header className="App-header">
+                <Counter />
                 <Logo />
                 <Description />
                 <OpenLink 
