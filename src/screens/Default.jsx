@@ -1,9 +1,9 @@
-import Logo from './_components/Logo';
-import Description from './_components/Description';
+import Logo from './Default/_components/Logo';
+import Description from './Default/_components/Description';
 import OpenLink from '../components/OpenLink';
-import LessonInfo from './_components/LessonInfo';
-import Counter from './_components/Counter';
-import FilterableProductTable from './_components/FilterableProductTable';
+import LessonInfo from './Default/_components/LessonInfo';
+import Counter from './Default/_components/Counter';
+import FilterableProductTable from './Default/_components/FilterableProductTable';
 
 const PRODUCTS = [
     {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
