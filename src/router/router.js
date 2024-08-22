@@ -5,7 +5,7 @@ import Product from "../screens/Product";
 import App from "../App";
 import LoginForm from "../screens/Forms/LoginForm";
 
-const basename = process.env.NODE_ENV === 'production' ? '/clase1-introduccion' : '/';
+const basename = process.env.NODE_ENV === 'production' ? '/desarrollo-frontend-react' : '/';
 
 const routes = createBrowserRouter([
     { 
