@@ -1,10 +1,12 @@
-import {SET_FORM_DATA} from './formTypes';
+import {SET_FORM_DATA, RESET_FORM_DATA} from './formTypes';
 
 const initialState = {
   formData: {
     username:'',
     email:'',
+    password:'',
   },
+  correctPassword: 'mod7ReactUSIP'
 };
 
 const formReducer = (state = initialState, action) => {
@@ -17,6 +19,10 @@ const formReducer = (state = initialState, action) => {
                     ...action.payload,
                 }
             };
+        case RESET_FORM_DATA:
+            return {
+                formData: initialState,
+            }
         default:
             return state;
     }
